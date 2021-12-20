@@ -4,4 +4,4 @@ parse_git_branch() {
 }
 
 # My prompt
-PS1="↪ %F{214}%m%F{015}:%F{039}%d%F{015}$(parse_git_branch) > "
+PS1="↪ %F{214}%*%F{015} %m%F{039}%d%F{015}$(parse_git_branch) > "
